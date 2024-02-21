@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:ital@0;1&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+}
+/* the button and logo in the beginning */
+.head{
+   margin-top: 70px;
+   display: flex;
+   justify-content: space-between;
+}
+/* the image */
+.huddle{
+    margin-left: 30px;
+}
+/* the first button */
+.btn1{
+    margin-right: 30px;
+}
+/* first button remaining style */
+.btnnn{
+    border: 1px solid hsl(321, 100%, 78%) ;
+    border-radius: 20px;
+    background: white;
+    color: hsl(321, 100%, 78%);
+    width:140px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+} 
+/* hover property for the first button */
+.btnnn:hover{
+    cursor: pointer;
+}
+/* text style */
+.txt{
+    margin-top: 200px;
+    text-align: center;
+}
+/* the heading style */
+.txt1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+/* mobile text */
+.txt1-mobile{
+    display: none;
+}
+/* heading paragragh */
+.par{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.par-mobile{
+    display: none;
+}
+/* second button */
+.btnn{
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+/* second button hover */
+.btnn:hover{
+    cursor: pointer;
+}
+/* big image */
+.pic{
+    text-align: center;
+    padding-bottom: 50px;
+}
+/* the two logos */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom:200px ;
+}
+/* the texts under the logo */
+.one{
+    margin-right: 220px;
+}
+.two{
+    margin-left: 280px;
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.h1par{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+    text-align: center;
+}
+/* the first section */
+.top{
+    display: flex;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.bg1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background: hsl(207, 100%, 98%);
+    width: 100%;
+}
+.bgh1-mobile{
+    display: none;
+}
+.bgpic-mobile{
+    display: none;
+}
+.bg1txt{
+    margin-top: 100px;
+    padding-right: 100px; 
+}
+/* backgrond image for the first section */
+.bgimg1{
+    position: absolute;
+    top: 1430px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+/* backgrond image for mobile */
+.bgimg1-mobile{
+    display: none;
+}
+/* second background image */
+.bgimg2{
+    position: absolute;
+    top: 1950px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.bgimg2-mobile{
+    display: none;
+}
+/* second section */
+.bg2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.bg2txt{
+    margin-top: 150px;
+    padding-left: 120px;
+}
+/* third background image */
+.bgimg3{
+    position: absolute;
+    top: 2470px;
+    left: 0;
+    width: 100%;
+    z-index:-1;
+}
+/* third background picture for mobile */
+.bg3pic-mobile{
+    display: none;
+}
+/* third background image */
+.bgimg3-mobile{
+    display: none;
+}
+.bgpar2{
+    display: none;
+}
+/* third section */
+.bg3{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+}
+.bgpar3{
+    display: none;
+}
+.bg3pic-mobile{
+    display: none;
+}
+/* third section text */
+.bg3txt{
+    margin-top: 100px;
+    padding-right: 120px;
+}
+/* fourth background image */
+.bgimg4{
+    width: 100%;
+    position: absolute;
+    top: 2890px;
+    left: 0;
+    z-index: -1;
+}
+/* fourth background image for mobile */
+.bgimg4-mobile{
+    display: none;
+}
+/* last area before the footer */
+.end{
+    text-align: center;
+    margin-top: 100px;
+}
+/* last button */
+.btn-end{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    font-family: 'Open sans', sans-serif;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+.btn-end:hover{
+    cursor: pointer;
+}
+/* last background image */
+.bgimg5{
+    width: 100%;
+    position: absolute;
+    top: 3170px;
+    left: 0;
+    z-index: -1;
+    margin-top: 150px;
+}
+/* mobile fifth background image */
+.bgimg5-mobile{
+    display: none;
+}
+footer{
+    background-color:  hsl(192, 100%, 9%);
+    margin-top: 150px; 
+    color: white;
+    padding: 80px;
+    justify-content: space-between;
+}
+.huddle1{
+   color: white;
+   padding-bottom: 30px;
+}
+.bgh1{
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.bgh1-build{
+    margin-top: 200px;
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+.bgpar{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.bgpar1{
+    display: none;
+}
+.bgpar2{
+    display: none;
+}
+
+.about{
+    margin-left: 20px;
+}
+.td-par{
+    font-family:'Open Sans', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: -60px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.phone{
+    margin-bottom: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+}
+.mail{
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+}
+.hud2{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -75px;
+    left: 65px;
+}
+.icons{
+    padding-top: 70px;
+    font-size: 25px;
+}
+.gram{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.form{
+    margin-left: -100px;
+}
+.news{
+    position: relative;
+    top: -100px;
+    left: 550px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+.news-par{
+  position: relative;
+  left: 550px;
+  top: -80px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.news-par-mobile{
+    display: none;
+}
+.btns{
+    position: relative;
+    left: 550px;
+    top: -30px;
+}
+.btns-1{
+    border: 1px solid hsl(0, 100%, 63%);
+    background-color: white;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+}
+input{
+    border: 1px solid transparent;
+    color: white;
+    padding-left: 2px;
+    background: transparent;
+    display: hidden;
+}
+.btns-2{
+    background: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 0px;
+    box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+}
+@media only screen and (max-width:375px){
+    /* the hddle logo */
+    .logo-desktop{
+        width: 130px;
+    }
+    /* the logo and button */
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* first button */
+    .btn1{
+        margin:0 30px;
+    }
+    /* button style */
+    .btnnn{
+        border: 1px solid hsl(321, 100%, 78%) ;
+        border-radius: 19px;
+        background: white;
+        color: hsl(321, 100%, 78%);
+        width:80px;
+        height: 28px;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+    }
+    /* text section mobile */
+    .txt{
+        margin-top: 100px;
+    } 
+    /* desktop text sety to none to make it hidden */
+    .txt1{
+        display: none;
+    }
+    /* first heading mobile */
+    .txt1-mobile{
+        text-align: center;
+        display: block;
+        font-family: 'Poppins', sans-serif; 
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    /* paragraph */
+    .par{
+        display: none;
+    }
+    /* mobile paragraph */
+    .par-mobile{
+        text-align: center;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px; 
+        font-weight: 400;
+        line-height: 20px;
+    }
+    /* the button style */
+    .btnn{
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+        border: 1px solid hsl(322, 100%, 66%);
+        background-color: hsl(322, 100%, 66%);
+        width: 230px;
+        height: 43px;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0px 5px 5px rgba(12, 0, 0, 0.2);
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    /* the image for mobile */
+    .img-mobile{
+        justify-content: center;
+        width:300px;
+        height: 250px;
+        padding-bottom: 50px;
+    }
+    /* the logo area */
+    .logo{
+        display: block;
+        justify-content: center;
+        margin-bottom:200px;
+    }
+    /* the two logos after display block */
+    .one{
+       text-align: center;
+       margin: 0px;
+       padding-bottom: 50px;
+    }
+    .two{
+        text-align: center;
+        padding-top: 50px;
+        margin: 0px;   
+    }
+    /* first section */
+    .top{
+        display: block;
+        padding: 30px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 50px;
+    }
+    /* first background-image  */
+    .bgimg1{
+        display: none;
+    }
+    .bgimg1-mobile{
+        display: block;
+        position: absolute;
+        top: 1290px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    /* second image */
+    .bgpic-mobile{
+        display: block;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 250px;
+        justify-content: center;
+    }
+    .bgpar{
+        display: none;
+    }
+    /* the first paragraph text */
+    .bgpar1{
+        display: block;
+        font-family:'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    /* first text section */
+    .bg1txt{
+        text-align: center;
+        margin-bottom:30px ;
+        font-size: 12px;
+        font-weight: 700;
+        padding-right: 50px;
+    }
+    .bg1pic{
+        display: none;
+    }
+    .bgimg2-mobile{
+        display: block;
+        position: absolute;
+        top: 2020px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .bg2{
+        display: block;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    /* second image */
+    .img-flow{
+        margin-left: 30px;
+        width: 300px;
+        height: 250px;
+    }
+    /* second paragraph */
+    .bgpar{
+        display: none;
+    }
+    .bgpar2{
+        display: block;
+        font-family:'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .bg2txt{
+        text-align: center;
+        margin-bottom:30px;
+        font-size: 12px;
+    }
+    .bg2txt{
+        margin-top: 50px;
+        padding-left: 8px;
+    }
+    .bgimg3{
+        display: none;
+    }
+    .bg3{
+        display: block;
+        justify-content: center;
+    }
+    .bgimg3-mobile{
+        display: block;
+        position: absolute;
+        top: 2720px;
+        left: 0;
+        width: 100%;
+        z-index:-1;
+    }
+    .bg3pic-mobile{
+        margin-bottom: 50px;
+        width: 300px;
+        height: 250px;
+        margin: 23px;
+    }
+    .bg3pic{
+        display: none;
+    }
+    .bgpar3{
+        display: block;
+        font-family:'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .bg3txt{
+        text-align: center;
+        margin-bottom:40px;
+        margin-left: 21px;
+        font-size: 12px;
+        margin-top: -10px;
+        padding-right: 30px;
+        padding-bottom: 80px;
+    }
+    .bg3pic-mobile{
+        display: block;
+    }
+    .bgimg4{
+        display: none;
+    }
+    .bgimg4-mobile{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 3290px;
+        z-index: -1;
+    }
+    .end{
+        text-align: center;
+    }
+    .bgh1-mobile{
+        line-height: 25px;
+    }
+    .bgimg5{
+        display: none;
+    }
+    .bgimg5-mobile{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top:3740px;
+        left: 0px;
+        z-index: -1;
+    }
+    footer{
+        font-family:'Poppins', sans-serif;
+        font-weight: 400;
+        display: block;
+        margin-top: 50px; 
+        padding: 180px 0 100px 75px;
+        justify-content: center;
+    }
+    .news-par{
+        display: none;
+    }
+    .form{
+        position: absolute;
+        top: 3650px;
+        font-size: 14px;
+    }
+    .news{
+        position: relative;
+        top: 300px;
+        left: -210px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+    }
+    .news-par-mobile{
+        display: block;
+        position: absolute;
+        top: 350px;
+        left: -210px; 
+        font-family: 'Frauncess',sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .btns{
+        position: relative;
+        top: 430px;
+        left: -190px; 
+    } 
+    .btns-2{
+        top: 15px;
+        left: 157px;
+    }   
+    .hud2{
+        position: relative;
+        top: 260px;
+        left: 2px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .huddle1{
+        position: relative;
+        top: 335px;
+        left: -55px;
+    }
+    .td-par{
+        position: relative;
+        top: 280px;
+        left: -50px;
+        padding-bottom: 90px;
+    }
+    .phone{
+        position: relative;
+        top: 230px;
+        left: -50px;
+        padding-bottom: 230px;
+    }
+    .mail{
+        margin-bottom: 200px;
+        margin-left: -50px;
+    }
+    .icons{
+        margin-top: -200px;
+        margin-left: -55px;
+    }
+    .fb{
+        padding-left: 5px;
+    }
+    .gram{
+        padding-right: 5px;
+    }
+    .tweet{
+        padding-left:2px;
+    }
+    p span{
+        padding: -10px;
+    }
+    
+}
